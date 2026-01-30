@@ -2,6 +2,7 @@ import { Navbar } from "@/components/sections/navbar";
 import { Hero } from "@/components/sections/hero";
 import { Brand } from "@/components/sections/brand";
 import { Menu } from "@/components/sections/menu";
+import { Franchise } from "@/components/sections/franchise";
 import { Footer } from "@/components/sections/footer";
 
 export default function Home() {
@@ -11,12 +12,7 @@ export default function Home() {
       <Hero />
       <Brand />
       <Menu />
-
-      {/* Fallback space to demonstrate scroll for sticky nav */}
-      {/* <div className="min-h-screen grid places-items-center text-gray-400">
-        (다음 섹션들이 이곳에 추가될 예정입니다)
-      </div> */}
-
+      <Franchise />
       <Footer />
     </main>
   );

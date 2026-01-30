@@ -50,9 +50,11 @@ export function Navbar() {
                             {link.label}
                         </Link>
                     ))}
-                    <Button variant="primary" size="sm" className="bg-point-red hover:bg-[#A31217]">
-                        창업 상담
-                    </Button>
+                    <Link href="#franchise">
+                        <Button variant="primary" size="sm" className="bg-point-red hover:bg-[#A31217]">
+                            창업 상담
+                        </Button>
+                    </Link>
                 </nav>
 
                 {/* Mobile Menu Toggle */}
@@ -77,9 +79,11 @@ export function Navbar() {
                             {link.label}
                         </Link>
                     ))}
-                    <Button variant="primary" className="w-full">
-                        창업 상담
-                    </Button>
+                    <Link href="#franchise" onClick={() => setIsMobileMenuOpen(false)}>
+                        <Button variant="primary" className="w-full">
+                            창업 상담
+                        </Button>
+                    </Link>
                 </div>
             )}
         </header>
