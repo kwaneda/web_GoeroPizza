@@ -73,7 +73,7 @@ export function Hero() {
                         className="relative w-full h-full drop-shadow-2xl"
                     >
                         <Image
-                            src="/images/pizza-hero.png"
+                            src="/images/i_pizza1.svg"
                             alt="Delicious Guero Pizza"
                             fill
                             className="object-contain"

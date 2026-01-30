@@ -34,9 +34,9 @@ export function Navbar() {
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <span className={cn("font-headline text-2xl md:text-3xl font-black tracking-tighter text-main-green", isScrolled ? "text-main-green" : "text-main-green")}>
-                        괴로피자
-                    </span>
+                    <div className="relative w-32 h-10">
+                        <img src="/images/logo_title.svg" alt="괴로피자" className="object-contain w-full h-full" />
+                    </div>
                 </Link>
 
                 {/* Desktop Navigation */}
